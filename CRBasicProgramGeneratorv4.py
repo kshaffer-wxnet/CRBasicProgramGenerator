@@ -9,14 +9,6 @@ from datetime import date
 # CRBasic Program Generator (GUI).py
 # A script to output RWIS programs depending on user input as to what sensors are at a site.
 
-# Author: Alex Blackmer, Cody Oppermann, and Kevin Shaffer
-# GUI Author: Alex Blackmer
-# Last run: 07/25/2025
-
-# TO DO:
-# Build in check to delete program file if it exists.
-# Write variable checks (i.e., if temp < - 35 or > 135)
-
 # Format today's date
 today = date.today()
 date = today.strftime("%m%d%y")
@@ -1926,3 +1918,4 @@ class StationGui:
 ############################## Driver Code ################################
 if __name__ == "__main__":
     sGui = StationGui()     # Creates instance of GUI object
+
